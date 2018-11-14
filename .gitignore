@@ -1,6 +1,14 @@
-#Temp files
+# Temp files
+*~
 
-#Compile results
+# Compile results
+target/**
+project/project/**
+*pyc
+
+**/target/**
+
+# Rando's
+todo
+.DS_Store
 .idea
-project
-target
