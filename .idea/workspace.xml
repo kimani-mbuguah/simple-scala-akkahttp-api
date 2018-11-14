@@ -128,6 +128,9 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542183826213" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
