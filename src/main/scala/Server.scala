@@ -25,7 +25,7 @@ object Server extends App {
   val bindingFuture = Http().bindAndHandle(route, host, port)
 
   bindingFuture.onComplete {
-    case Success(_) => println("success")
+    case Success(serverBinding) => println(s"listening to ${serverBinding.localAddress}")
     case Failure(error) => println(s"error: ${error.getMessage}")
   }
 
