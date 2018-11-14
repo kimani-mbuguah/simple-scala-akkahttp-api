@@ -1,6 +1,5 @@
 import akka.actor.Actor
-import  akka.actor.ActorSystem
-import akka.actor.Props
+
 class HelloActor extends Actor {
 
   def receive = {
